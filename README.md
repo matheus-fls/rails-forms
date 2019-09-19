@@ -27,3 +27,5 @@ To check if the new user was created:
 -> Run `User.all`, to see all users on the database <br>
 -> Run `User.find_by()` with `id:`, `username:` or `email:` followed by the desired value, if you want a specific user <br>
    EXAMPLE: `User.find_by(name: "Example User")`
+=======
+# rails-forms
