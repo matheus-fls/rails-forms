@@ -1,11 +1,6 @@
 # README
 
-Created by Microverse students:
-
-[Anthony Tapia](https://github.com/AnthonyTC89) 
-[Matheus Silva](https://github.com/matheus-fls) 
-
-as part of the Ruby on Rails Curriculum.
+Created by Microverse students [Anthony Tapia](https://github.com/AnthonyTC89) and [Matheus Silva](https://github.com/matheus-fls) as part of the Ruby on Rails Curriculum.
 
 About => This is a Rails project about Forms. It covers basic form structure and helpers.
 
@@ -21,14 +16,14 @@ Instructions:
 
 On your browser:
 
--> To create a new user, go to url: "localhost:3000/users/new", fill and submit the form
--> To edit an existing user, go to url: "localhost:3000/users/id/edit" 
+-> To create a new user, go to url: "localhost:3000/users/new", fill and submit the form <br>
+-> To edit an existing user, go to url: "localhost:3000/users/id/edit" <br>
    IMPORTANT: replace id with a valid user id integer 
 
 To check if the new user was created:
 
--> On your terminal, navigate to the root location of the repository
--> Run `rails console`
--> Run `User.all`, to see all users on the database
--> Run `User.find_by()` with `id:`, `username:` or `email:` followed by the desired value, if you want a specific user
+-> On your terminal, navigate to the root location of the repository <br>
+-> Run `rails console` <br>
+-> Run `User.all`, to see all users on the database <br>
+-> Run `User.find_by()` with `id:`, `username:` or `email:` followed by the desired value, if you want a specific user <br>
    EXAMPLE: `User.find_by(name: "Example User")`
